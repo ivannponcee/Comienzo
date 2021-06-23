@@ -1,0 +1,73 @@
+GIT GITHUB
+Software para compartir codigo, y, trabajar en simultaneo.
+Sistema de control de versiones
+permite registrar historial de actividades
+comandos directos
+trabaja en ramas
+
+Proceso de instalado
+full next
+SIEMPRE *FLECHA ABAJO*
+cd *link de posicion donde queremos ir*
+git init comando de inicio 
+vista, elementos ocultos, para ver el repositorio
+
+git tiene 3 caminos
+el local que se divide en 2, el codigo local, codigo foto, y el codigo en la nube
+ como reemplazar parados en la carpeta de repositorios
+git status es el comando para chequear
+git add . *añadir todos los archivos*
+git add *nombre del archivo ejemplo index.html, para subir archivo especifico*
+ 
+COMO SUBIR A LA NUBE*GITHUB*
+Crear repositorio nuevo en la nube
+
+a github se sube paquetes con nuevos cambios, optimiza la subida y ayuda a ditinguir los cambios
+ git commit -m "subiendo index.html" se sube con comentario
+ git log para ver si se creo el commit
+
+ se le indica que donde esta el repositorio en la nube
+ git push *sube a la nube*
+ git clone *copia url*
+
+git config --global user.name "Ivan Ponce"
+git config --global user.email "ivannponcee@gmail.com"
+
+
+cdm 
+cd ruta donde esta el respositorio que queremos utilizar y subir
+git init para inicializar
+git status para ver el estado
+git add . para subir todo lo que hay
+git commit -m "algun comentario alusivo"
+git log
+github creamos nuevo repositorio en la nube
+solo falta unir lo local con la nube
+git branch -M main
+se le dice donde va subir el codigo
+git push -u origin main
+
+git pull actualiza el codigo con lo ultimo subido
+clone (clona)
+add (agrega)
+commit (paquete de cambios creados)
+push (para subir el commit)
+pull (bajar ultimza actualizacion)
+(comandos mas utilizados)
+
+
+git init(inicializa)
+git add agregar
+git clone clona el url del proyecto
+git status para ver el estadio
+git commit paquete de camnbios
+git push sube el commit
+git pull baja los ultimos cambios
+
+source control 
+ terminal 
+	new terminal
+	copiar y pegar los comandos
+	 
+
+
